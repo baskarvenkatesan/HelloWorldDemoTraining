@@ -1,0 +1,61 @@
+Plugins:
+Bundled analyzers:
+  - Python Code Quality and Security 4.7.0.12181 (python)
+  - Clean as You Code 2.1.0.500 (cayc)
+  - Go Code Quality and Security 1.14.0.4481 (go)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - Kotlin Code Quality and Security 2.17.0.2902 (kotlin)
+  - IaC Code Quality and Security 1.20.0.5654 (iac)
+  - JavaScript/TypeScript/CSS Code Quality and Security 10.5.1.22382 (javascript)
+  - Ruby Code Quality and Security 1.14.0.4481 (ruby)
+  - Scala Code Quality and Security 1.14.0.4481 (sonarscala)
+  - C# Code Quality and Security 9.8.0.76515 (csharp)
+  - Java Code Quality and Security 7.24.0.32100 (java)
+  - HTML Code Quality and Security 3.9.0.3600 (web)
+  - Flex Code Quality and Security 2.10.0.3458 (flex)
+  - XML Code Quality and Security 2.10.0.4108 (xml)
+  - PHP Code Quality and Security 3.32.0.10180 (php)
+  - Text Code Quality and Security 2.3.0.1632 (text)
+  - VB.NET Code Quality and Security 9.8.0.76515 (vbnet)
+  - Configuration detection for Code Quality and Security 1.3.0.654 (config)
+Global server settings:
+  - sonar.core.id=147B411E-AYqPXK-6mhLPYS5MLIqI
+  - sonar.core.startTime=2023-09-20T10:39:55+0530
+  - sonar.forceAuthentication=false
+Project server settings:
+Project scanner properties:
+  - sonar.binaries=C:\Users\venkatesanb\eclipse-workspace\test\target\classes
+  - sonar.dynamicAnalysis=reuseReports
+  - sonar.groovy.binaries=C:\Users\venkatesanb\eclipse-workspace\test\target\classes
+  - sonar.host.url=http://localhost:9000
+  - sonar.jacoco.reportPath=C:\Users\venkatesanb\eclipse-workspace\test/../target/jacoco.exec
+  - sonar.java.binaries=C:\Users\venkatesanb\eclipse-workspace\test\target\classes
+  - sonar.java.coveragePlugin=jacoco
+  - sonar.java.libraries=D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\maven\sonar-maven-plugin\3.10.0.2594\sonar-maven-plugin-3.10.0.2594.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar,D:\Jenkins\Software\maven_repo\javax\inject\javax.inject\1\javax.inject-1.jar,D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar,D:\Jenkins\Software\maven_repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar,D:\Jenkins\Software\maven_repo\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar,D:\Jenkins\Software\maven_repo\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar,D:\Jenkins\Software\maven_repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0...
+  - sonar.java.source=1.8
+  - sonar.java.target=1.8
+  - sonar.java.test.binaries=C:\Users\venkatesanb\eclipse-workspace\test\target\test-classes
+  - sonar.java.test.libraries=C:\Users\venkatesanb\eclipse-workspace\test\target\classes,D:\Jenkins\Software\maven_repo\junit\junit\4.13.2\junit-4.13.2.jar,D:\Jenkins\Software\maven_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar,D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\maven\sonar-maven-plugin\3.10.0.2594\sonar-maven-plugin-3.10.0.2594.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar,D:\Jenkins\Software\maven_repo\javax\inject\javax.inject\1\javax.inject-1.jar,D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar,D:\Jenkins\Software\maven_repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar,D:\Jenkins\Software\maven_repo\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-utils\3.0.24\plexus-u...
+  - sonar.junit.reportPaths=C:\Users\venkatesanb\eclipse-workspace\test\target\surefire-reports
+  - sonar.junit.reportsPath=C:\Users\venkatesanb\eclipse-workspace\test\target\surefire-reports
+  - sonar.language=java
+  - sonar.libraries=D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\maven\sonar-maven-plugin\3.10.0.2594\sonar-maven-plugin-3.10.0.2594.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar,D:\Jenkins\Software\maven_repo\javax\inject\javax.inject\1\javax.inject-1.jar,D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar,D:\Jenkins\Software\maven_repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar,D:\Jenkins\Software\maven_repo\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar,D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar,D:\Jenkins\Software\maven_repo\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar,D:\Jenkins\Software\maven_repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0...
+  - sonar.links.ci=
+  - sonar.links.homepage=
+  - sonar.links.issue=
+  - sonar.links.scm=
+  - sonar.links.scm_dev=
+  - sonar.moduleKey=com.test.training:test
+  - sonar.projectBaseDir=C:\Users\venkatesanb\eclipse-workspace\test
+  - sonar.projectBuildDir=C:\Users\venkatesanb\eclipse-workspace\test\target
+  - sonar.projectKey=com.test.training:test
+  - sonar.projectName='test'
+  - sonar.projectVersion=0.0.1-SNAPSHOT
+  - sonar.scanner.app=ScannerMaven
+  - sonar.scanner.appVersion=3.9.1.2184/3.9.4
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=C:\Users\venkatesanb\eclipse-workspace\test\pom.xml,C:\Users\venkatesanb\eclipse-workspace\test\src\main\java
+  - sonar.tests=C:\Users\venkatesanb\eclipse-workspace\test\src\test\java
+  - sonar.token=******
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\venkatesanb\eclipse-workspace\test\target\sonar

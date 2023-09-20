@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.test.training.Calculator.JenkinsCalculatorTest" time="0.144" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sonar.projectName" value="&apos;test&apos;"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sonar.host.url" value="http://localhost:9000"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\venkatesanb\eclipse-workspace\test\target\test-classes;C:\Users\venkatesanb\eclipse-workspace\test\target\classes;D:\Jenkins\Software\maven_repo\junit\junit\4.13.2\junit-4.13.2.jar;D:\Jenkins\Software\maven_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\maven\sonar-maven-plugin\3.10.0.2594\sonar-maven-plugin-3.10.0.2594.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar;D:\Jenkins\Software\maven_repo\javax\inject\javax.inject\1\javax.inject-1.jar;D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar;D:\Jenkins\Software\maven_repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\Jenkins\Software\maven_repo\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\shared\maven-shared-io\1.1\maven-shared-io-1.1.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-artifact\2.0.2\maven-artifact-2.0.2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-artifact-manager\2.0.2\maven-artifact-manager-2.0.2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-repository-metadata\2.0.2\maven-repository-metadata-2.0.2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-6\wagon-provider-api-1.0-alpha-6.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9\plexus-container-default-1.0-alpha-9.jar;D:\Jenkins\Software\maven_repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;D:\Jenkins\Software\maven_repo\org\jacoco\org.jacoco.agent\0.8.10\org.jacoco.agent-0.8.10-runtime.jar;D:\Jenkins\Software\maven_repo\org\jacoco\org.jacoco.core\0.8.10\org.jacoco.core-0.8.10.jar;D:\Jenkins\Software\maven_repo\org\ow2\asm\asm\9.5\asm-9.5.jar;D:\Jenkins\Software\maven_repo\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;D:\Jenkins\Software\maven_repo\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;D:\Jenkins\Software\maven_repo\org\jacoco\org.jacoco.report\0.8.10\org.jacoco.report-0.8.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\venkatesanb\AppData\Local\Temp\surefire14466334784576957571\surefirebooter-20230920104618016_3.jar C:\Users\venkatesanb\AppData\Local\Temp\surefire14466334784576957571 2023-09-20T10-46-17_828-jvmRun1 surefire-20230920104618016_1tmp surefire_0-20230920104618016_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\venkatesanb\eclipse-workspace\test\target\test-classes;C:\Users\venkatesanb\eclipse-workspace\test\target\classes;D:\Jenkins\Software\maven_repo\junit\junit\4.13.2\junit-4.13.2.jar;D:\Jenkins\Software\maven_repo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\maven\sonar-maven-plugin\3.10.0.2594\sonar-maven-plugin-3.10.0.2594.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar;D:\Jenkins\Software\maven_repo\javax\inject\javax.inject\1\javax.inject-1.jar;D:\Jenkins\Software\maven_repo\org\sonarsource\scanner\api\sonar-scanner-api\2.16.3.1081\sonar-scanner-api-2.16.3.1081.jar;D:\Jenkins\Software\maven_repo\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\Jenkins\Software\maven_repo\org\jacoco\jacoco-maven-plugin\0.8.10\jacoco-maven-plugin-0.8.10.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-plugin-api\2.0.6\maven-plugin-api-2.0.6.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\shared\maven-shared-io\1.1\maven-shared-io-1.1.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-artifact\2.0.2\maven-artifact-2.0.2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-artifact-manager\2.0.2\maven-artifact-manager-2.0.2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\maven-repository-metadata\2.0.2\maven-repository-metadata-2.0.2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\wagon\wagon-provider-api\1.0-alpha-6\wagon-provider-api-1.0-alpha-6.jar;D:\Jenkins\Software\maven_repo\org\codehaus\plexus\plexus-container-default\1.0-alpha-9\plexus-container-default-1.0-alpha-9.jar;D:\Jenkins\Software\maven_repo\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;D:\Jenkins\Software\maven_repo\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;D:\Jenkins\Software\maven_repo\org\jacoco\org.jacoco.agent\0.8.10\org.jacoco.agent-0.8.10-runtime.jar;D:\Jenkins\Software\maven_repo\org\jacoco\org.jacoco.core\0.8.10\org.jacoco.core-0.8.10.jar;D:\Jenkins\Software\maven_repo\org\ow2\asm\asm\9.5\asm-9.5.jar;D:\Jenkins\Software\maven_repo\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;D:\Jenkins\Software\maven_repo\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;D:\Jenkins\Software\maven_repo\org\jacoco\org.jacoco.report\0.8.10\org.jacoco.report-0.8.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\venkatesanb"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\venkatesanb\eclipse-workspace\test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\venkatesanb\AppData\Local\Temp\surefire14466334784576957571\surefirebooter-20230920104618016_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="VenkatesanB"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Jenkins\Software\maven_repo"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENKAT~1\AppData\Local\Temp\"/>
+    <property name="sonar.token" value="sqa_c90a3d49086cad2d160df69cdf9f985e4930276d"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\venkatesanb\eclipse-workspace\test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Fujitsu\WorkplaceProtect\System;C:\Program Files\Fujitsu\WorkplaceProtect\PVM;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\Git\cmd;D:\Jenkins\Software\apache-maven-3.9.4\bin;C:\Users\venkatesanb\AppData\Local\Microsoft\WindowsApps;D:\Jenkins\Software\apache-maven-3.9.4\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="subTest" classname="com.test.training.Calculator.JenkinsCalculatorTest" time="0.018">
+    <system-out><![CDATA[Subtraction Operation
+]]></system-out>
+  </testcase>
+  <testcase name="addTest" classname="com.test.training.Calculator.JenkinsCalculatorTest" time="0.002">
+    <system-out><![CDATA[Addition Operation
+]]></system-out>
+  </testcase>
+</testsuite>

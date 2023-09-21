@@ -23,7 +23,7 @@ pipeline{
 				archive'target/*.jar'
 				}
 		}
-		stage("Consolidate the result"){
+		stage("Email Build Status"){
 			steps{
 			mail bcc: '', body: 'Sample Body', cc: '', from: '', replyTo: '', subject: 'Sample Subject', to: 'com.baskar.training'
 			}

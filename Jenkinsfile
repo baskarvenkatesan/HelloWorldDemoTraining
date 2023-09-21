@@ -25,7 +25,7 @@ pipeline{
 		}
 		stage("Email Build Status"){
 			steps{
-			mail body:"${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} -${currentBuild.currentResult} \n\nCheck console output at ${env.BUILD_URL} to view the results",subject:"${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - ${currentBuild.currentResult}!!",to 'com.baskar.training'
+			mail bcc: 'com.baskar.training@gmail.com', body: 'The decl pipeline job has been completed', cc: 'com.baskar.training@gmail.com', from: '', replyTo: '', subject: 'Decl pipeline job', to: 'com.baskar.training@gmail.com'
 			}
 		}
 		

@@ -7,7 +7,6 @@ public class JenkinsCalculator {
 	public int addNumbers(int number1, int number2) {
 		int test;
 		int sum;
-		System.out.println("Addition Operation");
 		System.out.println("For adding two numbers");
 		return number1+number2;
 	}

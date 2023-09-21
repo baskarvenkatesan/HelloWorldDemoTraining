@@ -20,5 +20,7 @@ pipeline{
 				input("Do you want to capture the results?")
 				junit '**/target/surefire-reports/TEST-*.xml'
 				archive'target/*.jar'
+				}
+		}
 	}
 }

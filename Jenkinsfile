@@ -5,10 +5,10 @@ pipeline{
 				parallel{
 					a:{
 						bat "mvn clean"
-					},
+					}
 					b:{
 						bat "mvn test"
-					},
+					}
 					a:{
 						bat "mvn package"
 					}

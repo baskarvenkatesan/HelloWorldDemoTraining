@@ -24,7 +24,11 @@ pipeline{
 				}
 		
 			}
-	
+			stage("Email Build Status"){
+				steps{
+					mail bcc: 'com.baskar.training@gmail.com', body: 'The decl pipeline job has been completed', cc: 'com.baskar.training@gmail.com', from: '', replyTo: '', subject: 'Decl pipeline job', to: 'com.baskar.training@gmail.com'
+				}
+			}
 	}
 	
 }

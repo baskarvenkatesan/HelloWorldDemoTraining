@@ -25,7 +25,7 @@ pipeline{
 		}
 		stage("Email Build Status"){
 			steps{
-			mail bcc: '', body: 'Sample Body', cc: '', from: '', replyTo: '', subject: 'Sample Subject', to: 'com.baskar.training'
+			mail body:"${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - ${currentBuild.currentResult} \n\nCheck console output at ${env.BUILD_URL} to view the results",subject:"${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - ${currentBuild.currentResult}!!",to'com.baskar.training'
 			}
 		}
 		
